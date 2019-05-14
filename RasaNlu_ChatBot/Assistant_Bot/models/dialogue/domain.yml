@@ -1,0 +1,274 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ACSH
+- utter_ACAE
+- utter_ANCH
+- utter_ANCE
+- utter_ATDV
+- utter_ASTI
+- utter_XCNS
+- utter_AFAC
+- utter_ISID
+- utter_AOCD
+- utter_AUUR
+- utter_AARG
+- utter_APDA
+- utter_AACR
+- utter_ALRF
+- utter_APNR
+- utter_ACLR
+- utter_ISRC
+- utter_AONR
+- utter_APOR
+- utter_AORC
+- utter_AAIC
+- utter_AOTX
+- utter_APDB
+- utter_XOLR
+- utter_ALRC
+- utter_AIRT
+- utter_AIRM
+- utter_AFUL
+- utter_AICD
+- utter_AIWP
+- utter_AGIS
+- utter_AIFG
+- utter_AIPF
+- utter_AILR
+- utter_AIBA
+- utter_AIOT
+- utter_XITL
+- utter_APPY
+- utter_APYO
+- utter_ADCA
+- utter_ACAO
+- utter_ADTC
+- utter_ARAC
+- utter_ACDF
+- utter_ADFC
+- utter_ARCA
+- utter_ARSI
+- utter_XOCA
+- utter_XTCA
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ACSH
+- utter_ACAE
+- utter_ANCH
+- utter_ANCE
+- utter_ATDV
+- utter_ASTI
+- utter_XCNS
+- utter_AFAC
+- utter_ISID
+- utter_AOCD
+- utter_AUUR
+- utter_AARG
+- utter_APDA
+- utter_AACR
+- utter_ALRF
+- utter_APNR
+- utter_ACLR
+- utter_ISRC
+- utter_AONR
+- utter_APOR
+- utter_AORC
+- utter_AAIC
+- utter_AOTX
+- utter_APDB
+- utter_XOLR
+- utter_ALRC
+- utter_AIRT
+- utter_AIRM
+- utter_AFUL
+- utter_AICD
+- utter_AIWP
+- utter_AGIS
+- utter_AIFG
+- utter_AIPF
+- utter_AILR
+- utter_AIBA
+- utter_AIOT
+- utter_XITL
+- utter_APPY
+- utter_APYO
+- utter_ADCA
+- utter_ACAO
+- utter_ADTC
+- utter_ARAC
+- utter_ACDF
+- utter_ADFC
+- utter_ARCA
+- utter_ARSI
+- utter_XOCA
+- utter_XTCA
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet
+- goodbye
+- ACSH
+- ACAE
+- ANCH
+- ANCE
+- ATDV
+- ASTI
+- XCNS
+- AFAC
+- ISID
+- AOCD
+- AUUR
+- AARG
+- APDA
+- AACR
+- ALRF
+- APNR
+- ACLR
+- ISRC
+- AONR
+- APOR
+- AORC
+- AAIC
+- AOTX
+- APDB
+- XOLR
+- ALRC
+- AIRT
+- AIRM
+- AFUL
+- AICD
+- AIWP
+- AGIS
+- AIFG
+- AIPF
+- AILR
+- AIBA
+- AIOT
+- XITL
+- APPY
+- APYO
+- ADCA
+- ACAO
+- ADTC
+- ARAC
+- ACDF
+- ADFC
+- ARCA
+- ARSI
+- XOCA
+- XTCA
+slots: {}
+templates:
+  utter_AACR:
+  - text: ACCOUNTS RECEIVABLE, NET
+  utter_AAIC:
+  - text: ST ACCRUED INCOME
+  utter_AARG:
+  - text: ACCOUNTS RECEIVABLE, GROSS
+  utter_ACAE:
+  - text: CASH & EQUIVALENTS
+  utter_ACAO:
+  - text: OTHER CURRENT ASSETS
+  utter_ACDF:
+  - text: DEFERRED FUEL COSTS – CURRENT
+  utter_ACLR:
+  - text: LOANS/NOTES RECEIVABLES NET
+  utter_ACSH:
+  - text: CASH
+  utter_ADCA:
+  - text: ST ASSETS HELD FOR SALE/FROM DISCONTINUED OPERATIONS
+  utter_ADFC:
+  - text: DEFERRED COSTS – CURRENT
+  utter_ADTC:
+  - text: DEFERRED INCOME TAX - CURRENT ASSET
+  utter_AFAC:
+  - text: FINANCIAL ASSETS - CURRENT
+  utter_AFUL:
+  - text: FUEL - INVENTORY  (UTILITY CO.)
+  utter_AGIS:
+  - text: GAS IN STORAGE – INVENTORY
+  utter_AIBA:
+  - text: BIOLOGICAL ASSETS
+  utter_AICD:
+  - text: INVENTORIES - COST IN EXCESS OF BILLINGS
+  utter_AIFG:
+  - text: INVENTORIES - FINISHED GOODS
+  utter_AILR:
+  - text: LIFO RESERVE
+  utter_AIOT:
+  - text: INVENTORIES –OTHER
+  utter_AIPF:
+  - text: INVENTORIES - PROGRAM/FILM RIGHTS
+  utter_AIRM:
+  - text: INVENTORIES - RAW MATERIALS, NET
+  utter_AIRT:
+  - text: REAL ESTATE INVENTORY, TOTAL
+  utter_AIWP:
+  - text: INVENTORIES - WORK IN PROGRESS
+  utter_ALRC:
+  - text: RECEIVABLES >   - YR INCLUDED WITHIN CURRENT RECEIVABLES
+  utter_ALRF:
+  - text: LOAN/NOTES RECEIVABLES, GROSS
+  utter_ANCE:
+  - text: NEGATIVE CASH & EQUIVALENT
+  utter_ANCH:
+  - text: NEGATIVE CASH
+  utter_AOCD:
+  - text: CURRENT DERIVATIVE FINANCIAL INSTRUMENTS – HEDGING
+  utter_AONR:
+  - text: OTHER RECEIVABLES, GROSS
+  utter_AORC:
+  - text: OTHER RECEIVABLES, NET
+  utter_AOTX:
+  - text: INCOME TAX RECEIVABLES - NET/GROSS
+  utter_APDA:
+  - text: PROVISION FOR DOUBTFUL TRADE ACCOUNTS
+  utter_APDB:
+  - text: PROVISION FOR DOUBTFUL ACCOUNTS - TOTAL
+  utter_APNR:
+  - text: PROVISION FOR LOAN/NOTES RECEIVABLES
+  utter_APOR:
+  - text: PROVISION FOR OTHER RECEIVABLES
+  utter_APPY:
+  - text: PREPAYMENTS
+  utter_APYO:
+  - text: PREPAID EXPENSES AND OTHER CURRENT ASSETS
+  utter_ARAC:
+  - text: REGULATORY ASSETS - CURRENT ASSET
+  utter_ARCA:
+  - text: RESTRICTED ACCOUNTS-CURRENT
+  utter_ARSI:
+  - text: RESTRICTED SHORT TERM INVESTMENT
+  utter_ASTI:
+  - text: SHORT TERM INVESTMENTS
+  utter_ATDV:
+  - text: CURRENT DERIVATIVE FINANCIAL INSTRUMENTS - SPECULATIVE/TRADING
+  utter_AUUR:
+  - text: CURRENT UNBILLED UTILITY REVENUE - NET/GROSS
+  utter_ISID:
+  - text: ISLAMIC INVESTMENTS & DEPOSITS
+  utter_ISRC:
+  - text: ISLAMIC RECEIVABLES, CURRENT
+  utter_XCNS:
+  - text: CASH & ST INVESTMENTS – TOTAL
+  utter_XITL:
+  - text: TOTAL INVENTORY
+  utter_XOCA:
+  - text: OTHER CURRENT ASSETS –TOTAL
+  utter_XOLR:
+  - text: LOANS/NOTES & RECEIVABLES, CURRENT
+  utter_XTCA:
+  - text: TOTAL CURRENT ASSETS
+  utter_goodbye:
+  - text: Nice talking to you!!
+  - text: Have a nice day.
+  - text: Bye :(
+  - text: Talk to you later!! Good Day!!
+  utter_greet:
+  - text: Hello! How Can I help you?
+  - text: Hi, Welcome to My PlayGround!!
+topics: []
